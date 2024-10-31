@@ -2,10 +2,14 @@
 
 const Navbar = () => {
     return (
-        <div>
-             <h1 className="text-3xl decoration-green-950	  font-bold underline">
-      Hello world!
-    </h1>
+        <div className="flex justify-between  ">
+    <div>aether.</div>
+    <div className= "">
+    <button>Sign Up</button>
+    <button>Log In</button>
+     </div>
+
+
         </div>
     );
 };
