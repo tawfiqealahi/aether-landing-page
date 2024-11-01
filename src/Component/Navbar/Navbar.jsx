@@ -1,12 +1,20 @@
+import './Navbar.css'
+import { useState } from "react";
 
 
 const Navbar = () => {
+    const [logIn,setLogIn]=useState(false);
+    const handleLogIn =()=>{
+        
+        setLogIn(!logIn)
+    }
+
     return (
         <div className="flex justify-between  ">
-    <div>aether.</div>
-    <div className= "">
-    <button>Sign Up</button>
-    <button>Log In</button>
+    <div className="text-4xl font-bold ">aether.</div>
+    <div className= "flex ">
+    <button className=" border px-1 mx-1 login" onClick={handleLogIn}>{(logIn?'Log In':'Log Out')}</button>
+    <div>-_-</div>
      </div>
 
 
