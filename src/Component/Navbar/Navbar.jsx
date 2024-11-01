@@ -11,11 +11,17 @@ const Navbar = () => {
 
     return (
         <div className="flex justify-between  ">
-    <div className="text-4xl font-bold ">aether.</div>
+  <div className='flex'> 
+   <div className="text-4xl font-bold ">aether 
+   </div>
+   <p className='dot text-4xl font-bold'>.</p>
+   </div>
     <div className= "flex ">
-    <button className=" border px-1 mx-1 login">Sign up</button>
-    <button className=" border px-1 mx-1 login" onClick={handleLogIn}>{(logIn?'Log In':'Log Out')}</button>
-    <div><img src={hamburger} alt="" srcset="" /></div>
+    <button className=" border px-1 mx-1 font-semibold login">Sign up</button>
+    <button className=" border px-1 mx-1 font-semibold login" onClick={handleLogIn}>{(logIn?'Log In':'Log Out')}</button>
+    <div>
+    <img src={hamburger} alt="hamburger menu" />
+    </div>
      </div>
 
 
