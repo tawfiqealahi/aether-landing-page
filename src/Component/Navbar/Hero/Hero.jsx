@@ -18,7 +18,7 @@ const Hero = () => {
                 <button className=' font- text-gray-100 bg-black px-2 p-1' type="button"><RiAppleLine className='w-10' /> <div>
                 <p className=' font-normal text-sm '>Available on the</p> Apple Store
                 </div> </button>
-                <button className='font-bold text-gray-100 bg-black px-2 p-1' type="button">
+                <button className='font-bold text-gray-100 bg-black px-2 p-1' type="button"> 
                 <IoLogoGooglePlaystore />
                 Play store</button>
                 </div>
